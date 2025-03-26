@@ -17,61 +17,56 @@
     <div class="container">
         <aside>
             <div class="checks1">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>ALL SYSTEMS CHECK</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  ALL SYSTEMS CHECK</h4> <br>
                 <p>Normal</p>
             </div>
             <div class="checks2">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>RENDEZVOUS BURN SLOW</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  RENDEZVOUS BURN SLOW</h4> <br>
                 <p>Normal</p>
             </div>
             <div class="checks3">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>PREPARE RENDEZVOUS BURN</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  PREPARE RENDEZVOUS BURN</h4> <br>
                 <p>Normal</p>
             </div>
             <div class="checks4">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>THERMAL SHIELD</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  THERMAL SHIELD</h4> <br>
                 <p>Applied</p>
             </div>
             <div class="checks5">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>BURN GO/NO-GO</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  BURN GO/NO-GO</h4> <br>
                 <p>Normal</p>
             </div>
             <div class="checks6">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>POWER COMPLETION</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  POWER COMPLETION</h4> <br>
                 <p>Awaiting</p>
             </div>
             <div class="checks7">
-                <i class="fa-solid fa-circle-check"></i>
-                <h4>STATION DECK CHECK</h4> <br>
+                <h4><i class="fa-solid fa-circle-check"></i>  STATION DECK CHECK</h4> <br>
                 <p>Normal</p>
             </div>
         </aside>
         <main>
-            <div class="info1">
-                <p>PPO2</p>
-                <h2>2.69</h2>
-                <h2>psia</h2>
-            </div>
-            <div class="info2">
-                <p>CABIN TEMP</p>
-                <h2>2.41</h2>
-                <h2>°C</h2>
-            </div>
-            <div class="info3">
-                <p>CABIN PRESSURE</p>
-                <h2>14.00</h2>
-                <h2>psia</h2>
-            </div>
-            <div class="info4">
-                <p>CO2</p>
-                <h2>0.07</h2>
-                <h2>mmHg</h2>
+            <div class="wrapper">
+                <div class="info info1">
+                    <p>PPO2</p>
+                    <h2>2.69</h2>
+                    <h3>psia</h2>
+                </div>
+                <div class="info info2">
+                    <p>CABIN TEMP</p>
+                    <h2>2.41</h2>
+                    <h3>°C</h2>
+                </div>
+                <div class="info info3">
+                    <p>CABIN PRESSURE</p>
+                    <h2>14.00</h2>
+                    <h3>psia</h2>
+                </div>
+                <div class="info info4">
+                    <p>CO2</p>
+                    <h2>0.07</h2>
+                    <h3>mmHg</h2>
+                </div>
             </div>
 
             <br>
@@ -80,91 +75,104 @@
             <p>cabin mics: <span>recording</span></p>
         </main>
         <article>
-            <div class="stats1">
-                <p>Internal Velocity</p>
-                <progress value="76" max="100"></progress>
+            <div class="stats stats1">
+                <div>
+                    <p>Internal Velocity</p>
+                    <progress value="76" max="100"></progress>
+                </div>
                 <h3><span>7.68 </span>km/s</h3>
             </div>
-            <div class="stats2">
-                <p>Altitude</p>
-                <progress value="20" max="100"></progress>
+            <div class="stats stats2">
+                <div>
+                    <p>Altitude</p>
+                    <progress value="20" max="100"></progress>
+                </div>
                 <h3><span>390.0 </span>km</h3>
             </div>
-            <div class="stats3">
-                <p>Apogee</p>
-                <progress value="35" max="100"></progress>
+            <div class="stats stats3">
+                <div>
+                    <p>Apogee</p>
+                    <progress value="35" max="100"></progress>
+                </div>
                 <h3><span>404.4 </span>km</h3>
             </div>
-            <div class="stats4">
-                <p>Perigee</p>
-                <progress value="68" max="100"></progress>
+            <div class="stats stats4">
+                <div>
+                    <p>Perigee</p>
+                    <progress value="68" max="100"></progress>
+                </div>
                 <h3><span>389.4 </span>km</h3>
             </div>
-            <div class="stats5">
-
-            </div>
-            <div class="stats6">
-                <p>Inclination</p>
-                <progress value="65" max="100"></progress>
+            <div class="stats stats6">
+                <div>
+                    <p>Inclination</p>
+                    <progress value="65" max="100"></progress>
+                </div>
                 <h3><span>51.67°</span></h3>
             </div>
-            <div class="stats7">
-                <p>Range to ISS</p>
-                <progress value="97" max="100"></progress>
+            <div class="stats stats7">
+                    <div>
+                        <p>Range to ISS</p>
+                        <progress value="97" max="100"></progress>
+                    </div>
                 <h3><span>0.02 </span>km</h3>
             </div>
         </article>
     </div>
 
-    <div class="buttons">
-        <button class="systems">systems</button>
-        <button class="cabin">cabin</button>
-    </div>
-
-    <footer>
-        <nav>
-            <a href="#">
-                <i class="fa-solid fa-rocket"></i>
-                <p>Overview</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-person"></i>
-                <p>Life</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-wifi"></i>
-                <p>Comms</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-rotate-left"></i>
-                <p>Prop</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-spinner"></i>
-                <p>Mech</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-car-battery"></i>
-                <p>Power</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-microchip"></i>
-                <p>Avionics</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-circle-notch"></i>
-                <p>GNC</p>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-temperature-half"></i>
-                <p>Thermal</p>
-            </a>
-        </nav>
-    </footer>
-
-    <div class="more">
-        <p>Power, Engine, Comms</p>
-        <button class="more">more</button>
+    <div class="footerWrapper">
+        <div class="buttons">
+            <button class="systems">systems</button>
+            <button class="cabin">cabin</button>
+        </div>
+    
+        <footer>
+            <nav>
+                <a href="#">
+                    <i class="fa-solid fa-rocket"></i>
+                    <p>Overview</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-person"></i>
+                    <p>Life</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-wifi"></i>
+                    <p>Comms</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <p>Prop</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-spinner"></i>
+                    <p>Mech</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-car-battery"></i>
+                    <p>Power</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p>Avionics</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-notch"></i>
+                    <p>GNC</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <p>Thermal</p>
+                </a>
+            </nav>
+        </footer>
+    
+        <div class="more">
+            <div>
+                <p>Power, Engine, Comms</p>
+                <button class="more">more</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
