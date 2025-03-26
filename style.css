@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: rgb(22,22,73);
+    background: linear-gradient(90deg, rgba(22,22,73,1) 0%, 
+  rgba(26,26,80,1) 46%, rgba(31,35,51,1) 100%);
+    overflow: hidden;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    padding: 0 20px;
+}
+
+/*Checks section*/
+aside {
+    height: 50vw;
+    width: 28vw;
+}
+
+aside div {
+    justify-content: start;
+    align-content: flex-start;
+    padding: 20px 30px;
+    color: #748b97;
+}
+
+aside .checks4 i {
+    color: green;
+}
+
+aside .checks4 p {
+    color: #fff;
+    font-weight: 400;
+}
+
+aside .checks6 i {
+    color: orange;
+}
+
+aside .checks6 p {
+    color: #fff;
+    font-weight: 400;
+}
+
+aside p {
+    font-weight: 300;
+}
+
+aside i {
+    font-size: 24px;
+}
+
+/*Main section*/
+
+main .wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+main .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    background-color: #333354;
+    box-shadow: 5px 5px 5px #748b97;
+    color: #fff;
+}
+
+main .info p {
+    margin-top: 1px;
+    font-weight: 250;
+}
+
+main .info h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+main .info h3 {
+    font-weight: 350;
+}
+
+main img {
+    margin: 30px 200px;
+    width: 400px;
+    height: 400px;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+
+main p span {
+    color: #ee0000;
+}
+
+/*Stats section*/
+
+article {
+    width: 28vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+article .stats {
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    color: #fff;
+    font-weight: 250;
+}
+
+article .stats6 {
+    margin-top: 50px;
+}
+
+article .stats span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footerWrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*Buttons Left*/
+
+.buttons {
+    justify-content: start;
+    align-items: flex-start;
+    padding: 20px 30px;
+    width: 28vw;
+    margin-top: -220px;
+}
+
+.buttons .systems {
+    padding: 20px 30px;
+    background-color: #fff;
+    color: rgb(22,22,73);
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons .cabin {
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid #333354;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+footer nav {
+    width: 44vw;
+    background-color: #161649;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    margin-top: -220px;
+    border-radius: 8px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #748b97;
+    font-size: 20px;
+    padding: 2px 0;
+    font-weight: 100;
+}
+
+footer nav a i {
+    color: #fff;
+}
+
+footer nav a:nth-child(1) {
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+
+footer nav a:nth-child(1) i, 
+footer nav a:nth-child(2) i {
+    color: #ee0000;
+}
+
+/*More controls*/
+
+.more div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding: 20px 30px;
+    width: 28vw;
+    margin-top: -220px;
+}
+
+.more div p {
+    color: #748b97;
+}
+
+.more button {
+    padding: 20px 40px;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid #333354;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: -50px;
+}
